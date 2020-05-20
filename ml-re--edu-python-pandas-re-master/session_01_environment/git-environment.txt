@@ -1,0 +1,56 @@
+GIT
+-----------------------------------------------------------------------------------
+
+Git is a free and open source distributed version control system
+
+- Get access to Adevinta git
+
+- Install git in local machine
+
+  - https://git-scm.com/
+  - https://help.github.com/en/github/
+            getting-started-with-github/quickstart
+
+- Create a git repository
+
+- Download and clone git in local
+
+
+NOMENCLATURE: naming repositories
+-----------------------------------------------------------------------------------
+
+ml-re--<about>-<project>-<client>
+
+about:
+	- app - prodcut docker
+	- pro - prototype notebooks - for ml
+	- ana - analisys notebooks - for ml
+	- edu - education
+
+project:
+    - descriptive name for the project
+
+client:
+    - product or peak team
+
+examples:
+    - ml-re--ana-watermarks-if
+    - ml-re--recommender-top-if
+    - ml-re--duplicados-fc
+
+
+GIT: commands
+-----------------------------------------------------------------------------------
+
+> git clone git@github.mpi-internal.com:scmspain/ml-re--pro-recommender-top-if.git
+> cd ml-re--pro-recommender-top-if.git
+> ls -alis
+
+> git status
+> touch README.md
+> git status
+> git add .
+> git commit -m "first commit"
+> git push
+> git pull
+

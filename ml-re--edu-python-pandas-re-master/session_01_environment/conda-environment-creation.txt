@@ -1,0 +1,31 @@
+1- Create Environment
+
+In the terminal shell enter 
+
+conda create -n yourenvname python=x.x anaconda
+
+where yourenvname is the name you want to call your environment, and replace x.x with the Python version you wish to use. 
+(
+To see a list of available python versions first, type 
+conda search "^python$"
+)
+
+2-Run Jupyter Notebook within the chosen environment
+
+Open the terminal shell
+Tap conda activate nombre del environment to open the chosen environment
+Tap Jupyter Notebook 
+
+3-Install additional packages to the virtual environment
+
+Enter the command 
+
+conda install -n yourenvname [package]
+
+where yourenvname is the name of your environment, and [package] is the name of the package you wish to install. Failure to specify “-n yourenvname” will install the package to the root Python installation.
+This will install the package from anaconda distribution, whenever available.
+Alternatively
+
+
+More info on basics conda commands:
+https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
